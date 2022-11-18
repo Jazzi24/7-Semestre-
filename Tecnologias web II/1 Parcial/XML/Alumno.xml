@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE escuela [
+    <!ELEMENT escuela (alumno*)>
+    <!ELEMENT alumno (nombre,apellido,nacimiento,direccion,(varon|hembra))+>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT nacimiento (#PCDATA)>
+    <!ATTLIST nacimiento dia CDATA #REQUIRED>
+    <!ATTLIST nacimiento mes CDATA #REQUIRED>
+    <!ATTLIST nacimiento año CDATA #REQUIRED>
+    <!ELEMENT direccion (calle,poblacion,provincia,cpostal)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cpostal (#PCDATA)>
+    <!ELEMENT varon EMPTY>
+    <!ELEMENT hembra EMPTY>
+]>
+<escuela>
+  <alumno>
+    <nombre>Juan</nombre>
+    <apellido>Pérez</apellido>
+    <nacimiento dia="20" mes="mayo" año="1990"></nacimiento>
+    <direccion>
+    <calle>3 de octubre</calle>
+    <poblacion>Miahuatlan</poblacion>
+    <provincia>Miahuatlan</provincia>
+    <cpostal>70805</cpostal>
+    </direccion>
+      <hembra></hembra>
+  </alumno>
+  
+  <alumno>
+      <nombre>Juan</nombre>
+      <apellido>Pérez</apellido>
+      <nacimiento dia="20" mes="mayo" año="1990"></nacimiento>
+      <direccion>
+        <calle>3 de octubre</calle>
+        <poblacion>Miahuatlan</poblacion>
+        <provincia>Miahuatlan</provincia>
+        <cpostal>70805</cpostal>
+      </direccion>
+        <varon></varon>
+    </alumno>
+</escuela>
