@@ -1,0 +1,10 @@
+sudo -u postgres psql
+
+alter user postgres password 'jazzi24';
+
+psql -h localhost -U postgres
+
+alter user postgres password '';
+
+alter user postgres password 'mexico';
+
