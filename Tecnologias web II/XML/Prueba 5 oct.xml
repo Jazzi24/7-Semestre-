@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dulce [
+    <!ELEMENT dulce (nombre*,sabor?,color+,precio)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT sabor ((acido,semeacido,neutro)|EMPTY)>
+    <!ELEMENT acido EMPTY>
+    <!ELEMENT semeacido EMPTY>
+    <!ELEMENT neutro ANY>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+]>
+
+<dulce>
+  <nombre></nombre>
+  <nombre></nombre>
+  <sabor>
+    <acido/>
+    <semeacido></semeacido>
+    <neutro>SIN SABOR<acido/></neutro>
+  </sabor> 
+  <color></color>
+  <precio></precio>
+</dulce>
