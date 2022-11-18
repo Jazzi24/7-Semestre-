@@ -1,0 +1,14 @@
+{
+    "nombre1":"manzana",
+    "nombre2":"pera",
+    "nombre3":"piña",
+    "nombre4":"sandía",
+    "precio":20.9,
+    "cantidad":100,
+    "dañada":false,
+    "dulce":true,
+    "tropical":null,
+    "forma":null,
+    "tipo":["uno",false,null,56,[],{}],
+    "objeto":{"id":"soy un objeto"}
+}

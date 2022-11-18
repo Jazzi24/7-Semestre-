@@ -1,0 +1,25 @@
+{
+    "suneo":{
+        "nombre":"Sistemas de universidades de EO.",
+        "clave":"20DPG-200",
+        "UTM":{
+            "nombre":"Universidad Tecnologica de la M",
+            "clave":"50DPG-2000",
+            "direccion":"Colonia Acatlima,Huajuapan de L.",
+            "carreras":["Alim.","Comp.","Dis.","Meca."],
+            "Computacion":{
+                "clave":"CMD-2345",
+                "año-inicio":1998,
+                "duracion":5,
+                "activa":true,
+                "titulacion-tesis":true,
+                "titulacion-ceneval":true,
+                "titulacion-promedio":false,
+                "semestre":{
+                    "primero":["mate","logica","admon."],
+                    "segundo":["p.e.","calculo","algoritmos"]
+                }
+            }
+        }
+    }
+}
